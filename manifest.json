@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "test01",
+  "version": "0.1",
+  "description": "Test insertCSS on webNavigation.onCommitted",
+  "icons": {
+    "48": "icons/customize-16.svg"
+  },
+  "permissions": ["tabs", "<all_urls>", "webNavigation"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/customize-16.svg"
+    },
+    "default_title": "List frames"
+  }
+}
